@@ -1,13 +1,62 @@
-#main {
+html {
+  height: 100%;
+  width: 100%;
+  font-family: cursive;
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  background: linear-gradient(rgb(98, 18, 189), rgb(53, 119, 241));
+}
+
+button {
+  font-size: 84px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: khaki;
+  box-shadow: 10px;
+}
+
+#main-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+#movie-menu {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+}
+
+#movie-details {
+  margin: 10px;
+  border: 1px solid #333;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #046635;
+}
+
+#movie-info {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#github-container {
-  display: flex;
-}
-
-ul {
-  list-style: none;
+#movie-poster {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
 }
